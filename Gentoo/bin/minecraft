@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd ~/Dropbox/Minecraft; java -jar Minecraft.jar

@@ -1,0 +1,47 @@
+# required by qutebrowser (argument)
+=www-client/qutebrowser-1.6.3 ~amd64
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+=dev-python/pypeg2-2.15.2 ~amd64
+# required by sxhkd (argument)
+=x11-misc/sxhkd-0.6.0 ~amd64
+# required by media-sound/bluez-alsa (argument)
+=media-sound/bluez-alsa-1.4.0 ~amd64
+# required by games-fps/quake3-1.36-r1::gentoo
+# required by games-fps/quake3 (argument)
+=games-fps/quake3-data-1.32b ~amd64
+# required by games-fps/quake3 (argument)
+=games-fps/quake3-1.36-r1 ~amd64
+# required by games-action/openclonk (argument)
+=games-action/openclonk-7.0 ~amd64
+# required by yamagi-quake2 (argument)
+=games-fps/yamagi-quake2-7.41 ~amd64
+# required by supertuxkart (argument)
+=games-action/supertuxkart-1.0 ~amd64
+# required by games-action/supertuxkart-1.0::gentoo
+# required by supertuxkart (argument)
+=dev-libs/angelscript-2.33.0 ~amd64
+# required by xonotic (argument)
+=games-fps/xonotic-0.8.2 ~amd64
+# required by games-fps/xonotic-0.8.2::gentoo
+# required by xonotic (argument)
+=dev-libs/d0_blind_id-1.0 ~amd64
+# required by freedoom (argument)
+=games-fps/freedoom-0.11.3-r1 ~amd64
+# required by games-fps/freedoom-0.11.3-r1::gentoo
+# required by freedoom (argument)
+=games-fps/gzdoom-4.1.3 ~amd64
+# required by games-fps/freedoom-0.11.3-r1::gentoo
+# required by freedoom (argument)
+=games-fps/freedoom-data-0.11.3 ~amd64
+# required by doomsday (argument)
+=games-fps/doomsday-2.1.1 ~amd64
+# required by pcsxr (argument)
+=games-emulation/pcsxr-1.9.94-r2 ~amd64
+# required by abuse (argument)
+=games-action/abuse-0.9_p20181213-r1 ~amd64
+# required by openarena (argument)
+=games-fps/openarena-0.8.8-r1 ~amd64
+net-p2p/transmission-remote-cli ~amd64
+games-misc/lolcat ~amd64
+media-fonts/quivira ~amd64

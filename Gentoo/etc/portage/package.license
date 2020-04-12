@@ -1,0 +1,4 @@
+# required by sys-kernel/genkernel-3.5.3.3::gentoo[firmware]
+# required by genkernel (argument)
+=sys-kernel/linux-firmware-20190620 linux-fw-redistributable no-source-code
+www-plugins/adobe-flash AdobeFlash-11.x

@@ -1,0 +1,33 @@
+#!/usr/bin/env sh
+name=$USER
+host=`hostname`
+kernel=`uname -r`
+pkgs=`cd /var/db/pkg/ && ls -d */* | wc -l && cd`
+#age=`head -1 /var/log/emerge.log | cut -d\  -f1,2`
+sens=`cat /sys/class/thermal/thermal_zone0/temp`
+memz=`free -h | awk '/^Mem:/ {print $3 "/" $2}'`
+cpum=`lscpu | grep "Model name: " |  cut -c 22-`
+cpuu=`top -n1 -b | grep "Cpu(s):" | awk -F " " '{print $2}' | sed -e 's/us,//'`
+osname=`cat /etc/*-release | grep "PRETTY_NAME=" | cut -c 13-`
+spcs=`df -h -t ext4  | cut -c 17-38`
+gpum=`lspci | grep -i VGA | cut -c 36-`
+upsy=`uptime -p`
+
+echo "--Packages--"
+echo "Repo          : $pkgs (emerge)"
+echo ""
+echo "--System info--"
+echo "user          : $name"
+echo "Distro        : $osname"
+echo "Host          : $host"
+echo "kernel        : $kernel"
+echo "uptime        : $upsy"
+echo "GPU Model     : $gpum"
+echo "CPU Model     : $cpum"
+echo "CPU temp      : $sens deg"
+echo "CPU usage     : $cpuu%"
+echo "Free RAM      : $memz"
+#echo "Installed     : $age"
+echo ""
+echo "--Disk(/)--"
+echo "$spcs"

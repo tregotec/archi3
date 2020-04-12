@@ -1,0 +1,8 @@
+*foreground: rgb:e5/e5/e5
+*background: rgb:00/00/00
+
+Sxiv.foreground: #bbbbbb
+Sxiv.background: #222222
+
+xterm*font: *-fixed-*-*-*-13-*
+xterm*geometry: 96x28

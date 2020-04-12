@@ -1,0 +1,152 @@
+# package.use# required by sys-kernel/genkernel-3.5.3.3::gentoo
+# required by genkernel (argument)
+>=sys-apps/util-linux-2.33.2 static-libs
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-python/pyyaml-5.1 libyaml
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-python/PyQt5-5.12.2 gui printsupport widgets multimedia sql network opengl declarative webchannel
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-qt/qtwebengine-5.12.3 widgets
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-qt/qtwebchannel-5.12.3 qml
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-libs/libxml2-2.9.9-r1 icu
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=media-libs/libvpx-1.5.0 svc
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by dev-qt/qtgui-5.12.3-r1::gentoo[xcb]
+# required by dev-qt/qtmultimedia-5.12.3::gentoo
+# required by dev-python/PyQt5-5.12.2::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=x11-libs/libxcb-1.13.1 xkb
+# required by dev-qt/qtgui-5.12.3-r1::gentoo[xcb]
+# required by dev-qt/qtmultimedia-5.12.3::gentoo
+# required by dev-python/PyQt5-5.12.2::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=x11-libs/libxkbcommon-0.8.4 X
+# required by dev-qt/qtcore-5.12.3::gentoo
+# required by dev-qt/qtxml-5.12.3::gentoo
+# required by dev-python/PyQt5-5.12.2::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-libs/libpcre2-10.32 pcre16
+# required by dev-python/PyQt5-5.12.2::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.6.3::gentoo
+# required by qutebrowser (argument)
+>=dev-qt/qtmultimedia-5.12.3 widgets
+# required by x11-libs/gtk+-3.24.8::gentoo
+# required by x11-themes/adwaita-icon-theme-3.30.1::gentoo
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28::gentoo
+>=x11-libs/cairo-1.16.0-r3 X
+# required by x11-misc/rofi-1.5.2::gentoo
+# required by rofi (argument)
+>=x11-libs/cairo-1.16.0-r3 xcb
+# required by x11-misc/rofi-1.5.2::gentoo
+# required by rofi (argument)
+>=x11-libs/pango-1.42.4-r1 X
+# required by net-print/cups-filters-1.21.6::gentoo[postscript]
+# required by net-print/cups-2.2.11::gentoo
+# required by dev-java/icedtea-bin-3.12.0-r1::gentoo[-multilib,cups]
+# required by virtual/jdk-1.8.0-r3::gentoo
+# required by virtual/jre-1.8.0-r1::gentoo
+# required by dev-java/icedtea-web-1.6.2::gentoo
+>=app-text/ghostscript-gpl-9.26 cups
+# required by www-client/firefox-60.7.2::gentoo
+# required by firefox (argument)
+>=media-libs/libpng-1.6.37 apng
+# required by www-client/firefox-60.7.2::gentoo
+# required by firefox (argument)
+>=dev-lang/python-2.7.15:2.7 sqlite
+# required by www-client/firefox-60.7.2::gentoo
+# required by firefox (argument)
+>=dev-lang/python-3.6.5 sqlite
+# required by media-sound/bluez-alsa-1.4.0::gentoo
+# required by media-sound/bluez-alsa (argument)
+>=dev-libs/glib-2.58.3 dbus
+# required by games-fps/quake3-1.36-r1::gentoo[-opengl,-dedicated]
+# required by games-fps/quake3 (argument)
+>=media-libs/libsdl-1.2.15-r9 opengl X
+# required by games-action/openclonk-7.0::gentoo[-dedicated]
+# required by games-action/openclonk (argument)
+media-libs/sdl-mixer mp3 vorbis
+x11-misc/rofi windowmode
+www-client/w3m X imlib
+app-text/poppler tiff
+sys-fs/ntfs3g -external-fuse
+media-video/ffmpeg openssl
+media-sound/cmus aac modplug
+www-plugins/adobe-flash nsplugin
+net-p2p/deluge gtk
+>=media-video/mpv-0.27.2 cplugins
+# required by net-p2p/qbittorrent-4.1.5-r1::gentoo
+# required by qbittorrent (argument)
+>=dev-qt/qtsingleapplication-2.6.1_p20171024 X
+# required by games-fps/yamagi-quake2-7.41::gentoo[opengl,client]
+# required by yamagi-quake2 (argument)
+>=media-libs/libsdl2-2.0.9 opengl
+# required by media-gfx/gimp-2.10.8-r1::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.4.14 cairo
+# required by media-gfx/gimp-2.10.8-r1::gentoo
+# required by gimp (argument)
+>=app-text/poppler-0.77.0 cairo
+# required by x11-misc/pcmanfm-1.2.5::gentoo
+# required by pcmanfm (argument)
+>=x11-libs/libfm-1.2.5 gtk
+# required by games-action/abuse-0.9_p20181213-r1::gentoo
+# required by abuse (argument)
+>=media-libs/sdl2-mixer-2.0.4 midi
+# required by www-client/firefox-68.1.0::gentoo[system-libvpx]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.7.0 postproc
+# required by www-client/firefox-68.1.0::gentoo[system-sqlite]
+# required by @selected
+# required by @world (argument)
+>=dev-db/sqlite-3.28.0 secure-delete
+# required by net-p2p/deluge-1.3.15-r3::gentoo
+# required by deluge (argument)
+>=net-libs/libtorrent-rasterbar-1.1.13 python
+# required by net-libs/libtorrent-rasterbar-1.1.13::gentoo[python]
+# required by net-p2p/deluge-1.3.15-r3::gentoo
+# required by deluge (argument)
+>=dev-libs/boost-1.65.0 python
+# required by www-client/chromium-80.0.3987.100::gentoo
+# required by chromium (argument)
+>=media-libs/harfbuzz-2.6.4 icu
+# required by www-client/chromium-80.0.3987.100::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-12.14.0 inspector
+# required by x11-misc/xdg-utils-1.1.3-r1::gentoo
+# required by www-client/chromium-80.0.3987.100::gentoo
+# required by chromium (argument)
+>=app-text/xmlto-0.0.28-r1 text
+# required by x11-base/xorg-server-1.20.7::gentoo[libglvnd]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libglvnd-1.3.1 X

@@ -1,0 +1,16 @@
+timeout 10s feh -F ~/Dropbox/ts.png &
+compton &
+mpv ~/Dropbox/startup
+xbacklight -set 15 &
+xsetroot -cursor_name left_ptr &
+~/.fehbg &
+xrdb -load .Xresources &
+transmission-daemon &
+sxhkd &
+
+while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
+do
+	sleep 1
+done &
+    
+exec dwm

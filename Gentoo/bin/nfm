@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd ~/Dropbox/'Need For Madness'; ./Madness.sh

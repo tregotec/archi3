@@ -1,0 +1,67 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	st
+
+super + A
+	alacritty
+
+# program launcher
+super + z
+	rofi -show run
+
+# window switcher
+super + Z
+	rofi -show window
+
+# browser
+super + W
+	firefox
+
+# dl prompt
+super + D
+	st -e dlfile
+
+super + d
+	st -e download.sh
+
+# screensaver
+super + S
+	st -e cmatrix -o
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# increase volume
+XF86AudioRaiseVolume
+	amixer -D bluealsa set 'LG AUDIO ND5520 - A2DP' 3%+
+
+# decrease volume
+XF86AudioLowerVolume
+	amixer -D bluealsa set 'LG AUDIO ND5520 - A2DP' 3%-
+
+# mute volume
+XF86AudioMute
+	amixer -D bluealsa set 'LG AUDIO ND5520 - A2DP' toggle
+
+# increase backlight
+XF86MonBrightnessUp
+	xbacklight -inc 5
+
+# decrease backlight
+XF86MonBrightnessDown
+	xbacklight -dec 5
+
+# screenshot
+Print
+	scrot %Y-%m-%d-%T-screenshot.png
+
+# screenshot specific region
+alt + Print
+	scrot -u %Y-%m-%d-%T-screenshot.png
+   
+
