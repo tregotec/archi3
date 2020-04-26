@@ -15,7 +15,7 @@ super + z
 
 # window switcher
 super + Z
-	rofi -show window
+	rofi -show window -show-icons
 
 # browser
 super + W

@@ -44,7 +44,7 @@ pkill -USR1 -x sxhkd"
 alias ahw="cp ~/ALSA/.asoundrc_ ~/.asoundrc; 
 cp ~/SXHKD/sxhkdrc_ ~/.config/sxhkd/sxhkdrc; 
 pkill -USR1 -x sxhkd"
-alias gts="git status"
+alias gts="cd ~/archi3 && git status"
 alias g="git"
 alias wm2b="cp ~/Xinit/.xinitrc_ ~/.xinitrc"
 alias wmd="cp ~/Xinit/.xinitrc__ ~/.xinitrc"

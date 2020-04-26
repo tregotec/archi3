@@ -5,7 +5,6 @@ xbacklight -set 15 &
 xsetroot -cursor_name left_ptr &
 ~/.fehbg &
 xrdb -load .Xresources &
-transmission-daemon &
 sxhkd &
 
 while xsetroot -name "`date` `uptime | sed 's/.*,//'`"

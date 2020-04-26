@@ -6,6 +6,5 @@ tint2 &
 xsetroot -cursor_name left_ptr &
 ~/.fehbg &
 xrdb -load .Xresources &
-transmission-daemon &
 2bwm &
 exec sxhkd

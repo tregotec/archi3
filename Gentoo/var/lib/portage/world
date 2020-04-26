@@ -43,8 +43,7 @@ media-video/mpv
 net-misc/dhcpcd
 net-misc/netifrc
 net-misc/youtube-dl
-net-p2p/transmission
-net-p2p/tremc
+net-p2p/rtorrent
 net-print/cups
 net-wireless/bluez
 net-wireless/iw
