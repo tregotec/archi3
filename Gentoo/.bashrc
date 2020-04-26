@@ -46,6 +46,7 @@ cp ~/SXHKD/sxhkdrc_ ~/.config/sxhkd/sxhkdrc;
 pkill -USR1 -x sxhkd"
 alias gts="cd ~/archi3 && git status"
 alias g="git"
+alias mci="sudo make clean install"
 alias wm2b="cp ~/Xinit/.xinitrc_ ~/.xinitrc"
 alias wmd="cp ~/Xinit/.xinitrc__ ~/.xinitrc"
 alias mrg="sudo emerge-webrsync; sudo emerge -v --update --newuse --deep --changed-deps @world @preserved-rebuild"
