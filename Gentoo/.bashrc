@@ -25,8 +25,18 @@ PS1='\[\033[1;31m\][\d \[\033[1;33m\]\@] \[\033[1;32m\]\h:\[\033[1;34m\]\w \[\03
 export PATH=$PATH:$HOME/.local/bin/
 export EDITOR=vim
 export VISUAL=vim
-export TERM=alacritty
 export HISTCONTROL=ignoreboth
+
+case ${TERM} in
+
+  xterm*|rxvt*|Eterm|alacritty|st-256color|aterm|kterm|gnome*)
+       PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
+
+           ;;
+	     screen*)
+	         PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033_%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
+		     ;;
+		     esac
 
 alias abt="sudo rc-service bluealsa start; 
 bluetoothctl power on;

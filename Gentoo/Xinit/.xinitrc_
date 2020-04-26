@@ -6,6 +6,6 @@ tint2 &
 xsetroot -cursor_name left_ptr &
 ~/.fehbg &
 xrdb -load .Xresources &
-st -e rtorrent
+alacritty -e rtorrent
 2bwm &
 exec sxhkd
