@@ -42,6 +42,4 @@
 =games-action/abuse-0.9_p20181213-r1 ~amd64
 # required by openarena (argument)
 =games-fps/openarena-0.8.8-r1 ~amd64
-net-p2p/tremc ~amd64
-games-misc/lolcat ~amd64
-media-fonts/quivira ~amd64
+media-sound/bluez-alsa ~amd64 
