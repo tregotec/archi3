@@ -43,3 +43,4 @@
 # required by openarena (argument)
 =games-fps/openarena-0.8.8-r1 ~amd64
 media-sound/bluez-alsa ~amd64 
+media-sound/pulsemixer ~amd64 

@@ -37,6 +37,7 @@ media-libs/libsdl
 media-sound/alsa-utils
 media-sound/bluez-alsa
 media-sound/cmus
+media-sound/pulsemixer
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/mpv
