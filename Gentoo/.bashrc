@@ -54,6 +54,7 @@ pkill -USR1 -x sxhkd"
 alias ahw="cp ~/ALSA/.asoundrc_ ~/.asoundrc; 
 cp ~/SXHKD/sxhkdrc_ ~/.config/sxhkd/sxhkdrc; 
 pkill -USR1 -x sxhkd"
+alias arm="rm -rf ~/.asoundrc"
 alias gts="cd ~/archi3 && git status"
 alias g="git"
 alias mci="sudo make clean install"
