@@ -34,8 +34,6 @@ media-gfx/imagemagick
 media-gfx/scrot
 media-gfx/sxiv
 media-libs/libsdl
-media-sound/alsa-utils
-media-sound/bluez-alsa
 media-sound/cmus
 media-sound/pulsemixer
 media-video/ffmpeg
