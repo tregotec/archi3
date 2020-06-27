@@ -59,6 +59,7 @@ sys-kernel/gentoo-sources
 sys-process/htop
 virtual/jdk
 www-client/firefox
+www-client/vivaldi
 www-client/w3m
 www-plugins/adobe-flash
 x11-apps/xbacklight
