@@ -103,6 +103,7 @@ media-sound/cmus aac modplug
 www-plugins/adobe-flash nsplugin
 net-p2p/deluge gtk
 games-fps/xonotic alsa
+app-editors/emacs X
 >=media-video/mpv-0.27.2 cplugins
 # required by net-p2p/qbittorrent-4.1.5-r1::gentoo
 # required by qbittorrent (argument)

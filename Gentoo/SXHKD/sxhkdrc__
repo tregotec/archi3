@@ -4,10 +4,10 @@
 
 # terminal emulator
 super + Return
-	st
+	alacritty
 
 super + A
-	alacritty
+	st
 
 # program launcher
 super + z
