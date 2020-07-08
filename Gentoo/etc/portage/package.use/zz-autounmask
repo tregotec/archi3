@@ -191,3 +191,8 @@ app-editors/emacs X
 # required by media-sound/pavucontrol-4.0::gentoo
 # required by pavucontrol (argument)
 >=dev-cpp/gtkmm-3.24.2 X
+# required by dev-python/numpy-1.18.5::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cython-0.29.20-r2 python_targets_python3_6
