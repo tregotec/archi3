@@ -196,3 +196,39 @@ app-editors/emacs X
 # required by @selected
 # required by @world (argument)
 >=dev-python/cython-0.29.20-r2 python_targets_python3_6
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-2.9 python_targets_python3_6
+# required by dev-python/pyopenssl-19.1.0::gentoo
+# required by dev-python/urllib3-1.25.8::gentoo
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cryptography-2.9 python_targets_python3_6
+# required by dev-python/cryptography-2.9::gentoo
+# required by dev-python/urllib3-1.25.8::gentoo
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/six-1.14.0 python_targets_python3_6
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-1.25.9 python_targets_python3_6
+# required by dev-python/urllib3-1.25.9::gentoo
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/PySocks-1.7.1 python_targets_python3_6
+# required by dev-python/urllib3-1.25.9::gentoo
+# required by dev-python/requests-2.23.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyopenssl-19.1.0 python_targets_python3_6
