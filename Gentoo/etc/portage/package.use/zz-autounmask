@@ -236,3 +236,12 @@ app-editors/emacs X
 # required by @selected
 # required by @world (argument)
 >=sys-auth/pambase-20190402 elogind
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.24.0 python_targets_python3_6
+# required by dev-python/requests-2.24.0::gentoo
+# required by media-gfx/blender-2.79b-r2::gentoo[python_single_target_python3_6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/chardet-3.0.4 python_targets_python3_6
