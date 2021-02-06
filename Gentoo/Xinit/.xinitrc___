@@ -1,0 +1,9 @@
+timeout 10s feh -F ~/archi3/ts.png &
+compton &
+mpv ~/archi3/startup
+xbacklight -set 15 &
+xsetroot -cursor_name left_ptr &
+~/.fehbg &
+xrdb -load .Xresources &
+st -e rtorrent &
+exec i3

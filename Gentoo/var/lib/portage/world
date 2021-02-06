@@ -12,6 +12,7 @@ app-misc/ranger
 app-misc/screenfetch
 app-misc/vifm
 app-portage/gentoolkit
+app-shells/fzf
 app-text/asciidoc
 app-text/poppler
 app-text/zathura
@@ -75,3 +76,4 @@ x11-misc/rofi
 x11-misc/sxhkd
 x11-misc/tint2
 x11-terms/alacritty
+x11-wm/i3

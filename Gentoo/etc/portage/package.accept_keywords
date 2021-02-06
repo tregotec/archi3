@@ -42,6 +42,10 @@
 =games-action/abuse-0.9_p20181213-r1 ~amd64
 # required by openarena (argument)
 =games-fps/openarena-0.8.8-r1 ~amd64
+=media-video/pipewire-0.3.18 ~amd64
 media-sound/bluez-alsa ~amd64 
 media-sound/pulsemixer ~amd64
 games-action/supertuxkart ~amd64
+app-shells/fzf ~amd64
+media-gfx/hydrus **
+x11-libs/gtkglext ~amd64

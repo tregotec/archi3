@@ -104,6 +104,7 @@ www-plugins/adobe-flash nsplugin
 net-p2p/deluge gtk
 games-fps/xonotic alsa
 app-editors/emacs X
+app-portage/layman sync-plugin-portage git
 >=media-video/mpv-0.27.2 cplugins
 # required by net-p2p/qbittorrent-4.1.5-r1::gentoo
 # required by qbittorrent (argument)
@@ -245,3 +246,154 @@ app-editors/emacs X
 # required by @selected
 # required by @world (argument)
 >=dev-python/chardet-3.0.4 python_targets_python3_6
+# required by dev-python/setuptools-46.4.0-r3::gentoo[python_targets_python3_6,-python_targets_python3_8,python_targets_python3_7]
+# required by dev-python/mako-1.1.3-r1::gentoo
+# required by media-libs/mesa-20.1.7::gentoo
+# required by x11-libs/gtk+-3.24.22::gentoo[X]
+# required by dev-libs/girara-0.3.4::gentoo
+# required by app-text/zathura-0.4.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-4.1.2-r1 python_targets_python3_6
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/numpy-1.19.3 python_targets_python3_7
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_7
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-1.25.11 python_targets_python3_7
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/cryptography-3.2.1 python_targets_python3_7
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/six-1.15.0-r1 python_targets_python3_7
+# required by dev-python/cryptography-3.2.1::gentoo[python_targets_python3_7,python_targets_python3_6,-python_targets_python3_9,python_targets_python3_8]
+# required by dev-python/requests-2.24.0-r1::gentoo[ssl]
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/cffi-1.14.0-r3 python_targets_python3_7
+# required by dev-python/cryptography-3.2.1::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo[ssl]
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-50.3.0 python_targets_python3_7
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by virtual/python-cffi-1::gentoo[-python_targets_python3_7,-python_targets_python3_6,-python_targets_python3_9,python_targets_python3_8]
+# required by dev-python/pycryptodome-3.9.8-r1::gentoo[-test]
+# required by net-misc/youtube-dl-2020.09.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycparser-2.20-r1 python_targets_python3_7
+# required by dev-python/pycparser-2.20-r1::gentoo
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by virtual/python-cffi-1::gentoo[-python_targets_python3_7,-python_targets_python3_6,-python_targets_python3_9,python_targets_python3_8]
+# required by dev-python/pycryptodome-3.9.8-r1::gentoo[-test]
+# required by net-misc/youtube-dl-2020.09.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r1 python_targets_python3_7
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/PySocks-1.7.1-r1 python_targets_python3_7
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyopenssl-19.1.0-r1 python_targets_python3_7
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[rsync-verify,-build]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-2.10-r1 python_targets_python3_7
+# required by dev-python/numpy-1.19.3::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cython-0.29.21-r1 python_targets_python3_7
+# required by dev-python/setuptools-50.3.0::gentoo
+# required by dev-python/mako-1.1.3-r1::gentoo
+# required by media-libs/mesa-20.2.4::gentoo
+# required by media-video/mpv-0.32.0-r2::gentoo[egl]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-4.1.2-r1 python_targets_python3_7
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.24.0-r1 python_targets_python3_7
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo[-build,rsync-verify]
+# required by dev-java/java-config-2.3.1::gentoo
+# required by dev-java/icedtea-sound-1.0.1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[pulseaudio]
+# required by virtual/jdk-1.8.0-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/chardet-3.0.4-r1 python_targets_python3_7
+# required by www-client/vivaldi-3.5.2115.81::gentoo[proprietary-codecs]
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-4.3.1 chromium
+# required by dev-python/wxpython-4.0.7::gentoo
+# required by media-gfx/hydrus-9999::vampire[python_single_target_python3_8]
+# required by hydrus (argument)
+>=x11-libs/wxGTK-3.0.4-r302 gstreamer
