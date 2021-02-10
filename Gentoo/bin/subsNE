@@ -1,3 +1,4 @@
 #!/bin/sh
 
-youtube-dl -f bestvideo+worstaudio --download-archive ~/Downloads/test/memology101.txt "https://www.youtube.com/playlist?list=UU1X9HTMhyL4UpmjgkrN41oQ"
+mkdir ~/Videos/Movies/subsNE ;
+youtube-dl -f bestvideo+worstaudio -o ~/Videos/Movies/subsNE/'%(upload_date)s-%(title)s.%(ext)s' --download-archive ~/Downloads/test/memology101.txt "https://www.youtube.com/playlist?list=UU1X9HTMhyL4UpmjgkrN41oQ"
