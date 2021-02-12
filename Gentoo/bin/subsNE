@@ -1,6 +1,6 @@
 #!/bin/sh
 
-OUTPUT=$OUTPUT:$HOME/Videos/Movies/subsNE/
+OUTPUT=$OUTPUT~/Videos/Movies/subsNE/
 
 cd ~/Downloads/test ;
 mkdir ~/Videos/Movies/subsNE ;
