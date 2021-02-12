@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo -n "Video/PL URL: "
+read -r
+URL=$REPLY
+
+echo -n "Title keyword(s): "
+read -r
+KW=$REPLY
+
+echo -n "Video format: "
+read -r
+FRMT=$REPLY
+
+echo -n "Download directory: "
+read -r
+DIR=$REPLY
+
+youtube-dl -f $FRMT -o $DIR'%(upload_date)s-%(title)s.%(ext)s' --match-title "$KW" "$URL"
