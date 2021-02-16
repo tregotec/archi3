@@ -18,8 +18,11 @@ FRMT=$REPLY
 
 echo
 
-youtube-dl -v --get-id $URL >> ~/Downloads/test/$TXT.txt ;
+cd ~/Downloads/test &&
+youtube-dl --skip-download --write-info-json --download-archive $TXT.txt $URL |tee /dev/tty|grep "\[info] Writing video description metadata as JSON to:" |gawk '{ match($0, /-([a-zA-Z0-9_-]+)\.info\.json/, arr); if(arr[1] != "") print "youtube "arr[1] }' >> $TXT.txt ;
 tail -n 1 "$HOME/.local/bin/$SUBS" | wc -c | xargs -I {} truncate "$HOME/.local/bin/$SUBS" -s -{} ;
 echo "youtube-dl -f $FRMT -o  OUTPUT'%(uploader)s-%(upload_date)s-%(title)s.%(ext)s' --download-archive $TXT.txt '$URL' ;" >> ~/.local/bin/$SUBS ;
 echo "cd" >> ~/.local/bin/$SUBS ;
-sed -i 's/ OUTPUT/$OUTPUT/g' $HOME/.local/bin/$SUBS
+sed -i 's/ OUTPUT/$OUTPUT/g' $HOME/.local/bin/$SUBS ;
+rm -rf *.json ;
+cd
