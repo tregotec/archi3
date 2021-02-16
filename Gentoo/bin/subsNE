@@ -4,6 +4,5 @@ OUTPUT=$OUTPUT~/Videos/Movies/subsNE/
 
 cd ~/Downloads/test ;
 mkdir ~/Videos/Movies/subsNE ;
-youtube-dl -f bestvideo+worstaudio -o $OUTPUT'%(upload_date)s-%(title)s.%(ext)s' --download-archive m101.txt "https://www.youtube.com/playlist?list=UU1X9HTMhyL4UpmjgkrN41oQ" ;
-
+youtube-dl -f bestvideo+worstaudio -o $OUTPUT'%(upload_date)s-%(title)s.%(ext)s' --download-archive m101.txt 'https://www.youtube.com/playlist?list=UU1X9HTMhyL4UpmjgkrN41oQ' ;
 cd
