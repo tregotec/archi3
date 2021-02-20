@@ -8,7 +8,6 @@ app-editors/nano
 app-editors/vim
 app-misc/cmatrix
 app-misc/figlet
-app-misc/ranger
 app-misc/screenfetch
 app-misc/vifm
 app-portage/gentoolkit
@@ -49,6 +48,7 @@ net-print/cups
 net-wireless/bluez
 net-wireless/iw
 net-wireless/wpa_supplicant
+sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/efibootmgr
