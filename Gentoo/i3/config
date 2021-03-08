@@ -12,7 +12,7 @@
 set $mod Mod4
 
 # Configure border style
-default_border pixel 2
+default_border none
 default_floating_border none
 
 # # Hide borders
@@ -73,12 +73,14 @@ bindsym $mod+w exec dmenu_run
 bindsym $mod+z exec --no-startup-id "rofi -show run"
 
 # Start Applications
-bindsym $mod+Shift+w exec firefox
+#bindsym $mod+Shift+w exec firefox
+bindsym $mod+Shift+w exec vivaldi
 bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+s exec "st -e cmatrix -o"
 
-# Open specific applications in floating mode
+# Open specific applications in floating or fullscreen mode
 for_window [title="mpv"] floating enable, border pixel 2, resize set 64, move position 1285 710
+#for_window [title="cmatrix"] fullscreen enable
 
 # Screenshot
 bindsym --release Print exec scrot '%Y-%m-%d-%T-screenshot.png'
