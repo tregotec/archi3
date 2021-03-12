@@ -221,7 +221,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   colors{
-	background #858585
+	background #707070
   }
 	position top
 	status_command i3status
