@@ -1,0 +1,12 @@
+masterpiece, best quality, 1girl, cute sri lankan girl, [gentle smile], blush, standing, thick thighs, nude
+
+masterpiece, best quality, 1girl, cute japanese girl, short black hair, brown eyes, [gentle smile], blush 
+
+Negative prompt: lowres, anatomical nonsense, bad anatomy, bad face, poorly drawn face, colored sclera, glowing eyes, no pupils, bad hands, poorly drawn hands, mutated, mutation, deformed, deformation, text, error, missing fingers, extra digits, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, multiple girls, comic, 2koma, 4koma, 6koma, heads-up display, avatar icon, uneven eyes, squinting, polydactyly, fused fingers, underdeveloped hand, club hand, leprosy, mutilated hand, lymphatic filariasis, ectrodactyly, cleft hand, eating, ugly, heavy makeup, fused, conjoined, amputee, faceless, blur, blurry, limbless, fused, extra, stretched 
+
+(masterpiece:1.2), best quality, illustration, (HDR:1.2), pixiv, sharp focus, beautiful face, cute, soft lighting, depth of field, (1girl:1.2),
+loli, elf, pointy ears, long silver hair, french braid, blue eyes, blush, breath, winter coat, gloves, looking at viewer, expressionless,
+blizzard, snow, frost, snowy (mountains:1.1), trees, (dawn:1.1), ruins,
+
+Negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, fused hands, fused fingers, long arm, extra hands, extra arms, missing arm, missing hand, 2girls, double heads, extra nipples, missing nipples, bad pussy
+Steps: 40, Sampler: Euler a, CFG scale: 7, Seed: 651866855, Size: 1024x640, Model hash: 7460a6fa
